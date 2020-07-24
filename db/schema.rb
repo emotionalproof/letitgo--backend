@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_07_24_055533) do
+ActiveRecord::Schema.define(version: 2020_07_24_155117) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -22,8 +22,7 @@ ActiveRecord::Schema.define(version: 2020_07_24_055533) do
   end
 
   create_table "user_activities", force: :cascade do |t|
-    t.string "date"
-    t.string "log"
+    t.integer "position"
     t.bigint "user_id", null: false
     t.bigint "activity_id", null: false
     t.datetime "created_at", precision: 6, null: false
@@ -32,17 +31,26 @@ ActiveRecord::Schema.define(version: 2020_07_24_055533) do
     t.index ["user_id"], name: "index_user_activities_on_user_id"
   end
 
+  create_table "user_activity_logs", force: :cascade do |t|
+    t.string "content"
+    t.string "date"
+    t.bigint "user_activity_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["user_activity_id"], name: "index_user_activity_logs_on_user_activity_id"
+  end
+
   create_table "users", force: :cascade do |t|
     t.string "first_name"
     t.string "last_name"
     t.string "username"
     t.string "password"
     t.string "password_confirmation"
-    t.string "routine"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
 
   add_foreign_key "user_activities", "activities"
   add_foreign_key "user_activities", "users"
+  add_foreign_key "user_activity_logs", "user_activities"
 end
