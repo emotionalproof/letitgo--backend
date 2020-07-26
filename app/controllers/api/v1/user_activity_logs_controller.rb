@@ -1,2 +1,2 @@
-class Api::V1::UserActivity::UserActivityLogsController < ApplicationController
+class Api::V1::UserActivityLogsController < ApplicationController
 end
