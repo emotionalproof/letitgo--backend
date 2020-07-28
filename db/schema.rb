@@ -27,7 +27,7 @@ ActiveRecord::Schema.define(version: 2020_07_26_023343) do
     t.bigint "activity_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.boolean "completed"
+    t.boolean "completed", default: false
     t.index ["activity_id"], name: "index_user_activities_on_activity_id"
     t.index ["user_id"], name: "index_user_activities_on_user_id"
   end
