@@ -13,14 +13,16 @@ require 'faker'
 
 # User.destroy_all
 
-Activity.create(name: "Breathe")
+# Activity.create(name: "Breathe")
 # Activity.create(name: "Create")
 # Activity.create(name: "Disapear")
-Activity.create(name: "Learn")
+# Activity.create(name: "Learn")
+# Activity.create(name: "Remember")
 # Activity.create(name: "Move")
-Activity.create(name: "Play")
+# Activity.create(name: "Play")
 # Activity.create(name: "Smile")
-Activity.create(name: "Walk")
+# Activity.create(name: "Walk")
+Activity.create(name: "Select")
 
 # User.create({first_name: Faker::Name.first_name, last_name: Faker::Name.last_name, username: "user1", password: "password", password_confirmation: "password"})
 # User.create({first_name: Faker::Name.first_name, last_name: Faker::Name.last_name, username: "user2", password: "password", password_confirmation: "password"})

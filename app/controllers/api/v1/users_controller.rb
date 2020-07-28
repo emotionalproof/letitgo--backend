@@ -14,9 +14,7 @@ class Api::V1::UsersController < ApplicationController
     end
     
     def show
-        render json: @user.to_json(:include => {
-            :user_activities => {:include => :user_activity_logs}
-        })
+        render json: @user.to_json(:include => :user_activities)
     end
 
     def create
