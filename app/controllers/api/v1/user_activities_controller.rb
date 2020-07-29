@@ -6,6 +6,12 @@ class Api::V1::UserActivitiesController < ApplicationController
         render json: user_activities
     end
 
+    def by_user
+        user = User.find_by(username: params[:username])
+        user_data = user.user_activities
+        render json: user_data
+    end
+
     def show
         render json: @user_activity
     end
