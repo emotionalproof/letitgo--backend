@@ -8,9 +8,7 @@ class Api::V1::UsersController < ApplicationController
 
     def login
         @user = User.find_by(username: params[:username])
-        render json: @user.to_json(:include => {
-            :user_activities => {:include => :user_activity_logs}
-        })
+        render json: @user.to_json(:include => :user_activities)
     end
     
     def show
@@ -38,8 +36,8 @@ class Api::V1::UsersController < ApplicationController
         @user_activity.destroy!
         render json: {}
     end
+    
 
-  
     private
     
     def find_user
