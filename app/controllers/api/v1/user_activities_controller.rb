@@ -1,6 +1,9 @@
 require ‘open-uri’
 require ‘net/http’
 require ‘json’
+require 'openssl'
+
+WEATHER_API_KEY = ENV['weather_api_key']
 
 class Api::V1::UserActivitiesController < ApplicationController
     before_action :find_user_activity, only: [:show, :update, :destroy]
@@ -37,7 +40,17 @@ class Api::V1::UserActivitiesController < ApplicationController
 
     def fetch_weather 
         location = params[:location]
-        url = https://community-open-weather-map.p.rapidapi.com/weather?units=imperial&q=${uriEncodedCity}
+        source = "https://community-open-weather-map.p.rapidapi.com/weather?units=imperial&q=${location}"
+        url = URI(source)
+        http = Net::HTTP.new(url.host, url.port)
+        http.use_ssl = true
+        http.verify_mode = OpenSSL::SSL::VERIFY_NONE
+        request = Net::HTTP::Get.new(url)
+        request["x-rapidapi-host"] = 'community-open-weather-map.p.rapidapi.com'
+        request["x-rapidapi-key"] = WEATHER_API_KEY
+        response = http.request(request)
+        data = response.read_body
+        render json: data
     end
 
     const getForecast = e => {
@@ -46,7 +59,7 @@ class Api::V1::UserActivitiesController < ApplicationController
             "method": "GET",
             "headers": {
               "x-rapidapi-host": "community-open-weather-map.p.rapidapi.com",
-                "x-rapidapi-key": "ea4deba157msh20974ba3dd19506p11f45djsna288c2eedde7"
+                "x-rapidapi-key": "${WEATHER_API_KEY}"
              }
         })
         .then(res => res.json())
