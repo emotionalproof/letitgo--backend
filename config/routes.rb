@@ -6,6 +6,7 @@ Rails.application.routes.draw do
         get 'users/:id/user_activities', to: 'users#routine_items', as: 'user_routine_items'
       resources :user_activity_logs  
       resources :user_activities
+        get 'user_activities/user/:username', to: 'user_activities#by_user'
       resources :activities
     end
   end

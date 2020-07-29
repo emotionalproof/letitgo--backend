@@ -22,7 +22,7 @@ require 'faker'
 # Activity.create(name: "Play")
 # Activity.create(name: "Smile")
 # Activity.create(name: "Walk")
-Activity.create(name: "Select")
+# Activity.create(name: "Select")
 
 # User.create({first_name: Faker::Name.first_name, last_name: Faker::Name.last_name, username: "user1", password: "password", password_confirmation: "password"})
 # User.create({first_name: Faker::Name.first_name, last_name: Faker::Name.last_name, username: "user2", password: "password", password_confirmation: "password"})
