@@ -7,6 +7,7 @@ Rails.application.routes.draw do
       resources :user_activity_logs  
       resources :user_activities
         get 'user_activities/user/:username', to: 'user_activities#by_user'
+        get "user_activities/weather/:location", to: 'user_activities#fetch_weather'
       resources :activities
     end
   end
