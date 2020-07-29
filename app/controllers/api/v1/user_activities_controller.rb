@@ -1,3 +1,7 @@
+require ‘open-uri’
+require ‘net/http’
+require ‘json’
+
 class Api::V1::UserActivitiesController < ApplicationController
     before_action :find_user_activity, only: [:show, :update, :destroy]
 
@@ -31,6 +35,28 @@ class Api::V1::UserActivitiesController < ApplicationController
         render json: {}
     end
 
+    def fetch_weather 
+        location = params[:location]
+        url = https://community-open-weather-map.p.rapidapi.com/weather?units=imperial&q=${uriEncodedCity}
+    end
+
+    const getForecast = e => {
+        e.preventDefault()
+        fetch(`https://community-open-weather-map.p.rapidapi.com/weather?units=imperial&q=${uriEncodedCity}`, {
+            "method": "GET",
+            "headers": {
+              "x-rapidapi-host": "community-open-weather-map.p.rapidapi.com",
+                "x-rapidapi-key": "ea4deba157msh20974ba3dd19506p11f45djsna288c2eedde7"
+             }
+        })
+        .then(res => res.json())
+        .then(res => {
+          setResponseObj(res)
+        })
+        .catch(err => {
+            console.log(err);
+        });
+    
     private
     
     def find_user_activity

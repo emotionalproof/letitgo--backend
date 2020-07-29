@@ -39,6 +39,7 @@ class Api::V1::UsersController < ApplicationController
         render json: {}
     end
 
+  
     private
     
     def find_user
