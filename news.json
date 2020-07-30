@@ -1,0 +1,268 @@
+news = [
+    {
+        "status": "ok",
+        "totalResults": 1939,
+        "articles": [
+            {
+                "source": {
+                    "id": "techcrunch",
+                    "name": "TechCrunch"
+                },
+                "author": "Devin Coldewey",
+                "title": "Zuckerberg unconvincingly feigns ignorance of data-sucking VPN scandal",
+                "description": "Facebook's Mark Zuckerberg appeared less than entirely truthful at today's House Judiciary hearing, regarding last year's major Onavo controversy, in which his company paid teenagers to use a VPN app that reported detailed data on their internet use. Rep. Han…",
+                "url": "https://techcrunch.com/2020/07/29/zuckerberg-unconvincingly-feigns-ignorance-of-data-sucking-vpn-scandal/",
+                "urlToImage": "https://s.yimg.com/uu/api/res/1.2/3P3Vnh2Dy.QdyjDDMMj_Dw--~B/aD02NjU7dz0xMDI0O3NtPTE7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/techcrunch_350/61e68b5a05380fa6f65c3e11d64cc1b2",
+                "publishedAt": "2020-07-29T23:27:36Z",
+                "content": "Facebook's Mark Zuckerberg appeared less than entirely truthful at today's House Judiciary hearing, regarding last year's major Onavo controversy, in which his company paid teenagers to use a VPN app… [+5126 chars]"
+            },
+            {
+                "source": {
+                    "id": "techcrunch",
+                    "name": "TechCrunch"
+                },
+                "author": "Devin Coldewey",
+                "title": "Zuckerberg unconvincingly feigns ignorance of data-sucking VPN scandal",
+                "description": "Facebook’s Mark Zuckerberg appeared less than entirely truthful at today’s House Judiciary hearing, regarding last year’s major Onavo controversy, in which his company paid teenagers to use a VPN app that reported detailed data on their internet use. Though h…",
+                "url": "http://techcrunch.com/2020/07/29/zuckerberg-unconvincingly-feigns-ignorance-of-data-sucking-vpn-scandal/",
+                "urlToImage": "https://techcrunch.com/wp-content/uploads/2020/07/GettyImages-1227829241.jpeg?w=616",
+                "publishedAt": "2020-07-29T23:27:36Z",
+                "content": "Facebook’s Mark Zuckerberg appeared less than entirely truthful at today’s House Judiciary hearing, regarding last year’s major Onavo controversy, in which his company paid teenagers to use a VPN app… [+5122 chars]"
+            },
+            {
+                "source": {
+                    "id": "techcrunch",
+                    "name": "TechCrunch"
+                },
+                "author": "Anthony Ha",
+                "title": "Daily Crunch: Tech CEOs face Congress",
+                "description": "U.S. tech giants face antitrust scrutiny, Spotify has a mixed quarter and at-home fitness startup Tempo raises funding. This is your Daily Crunch for July 29, 2020. The big story: Tech CEOs face Congress Amazon’s Jeff Bezos, Apple’s Tim Cook, Facebook’s Mark …",
+                "url": "http://techcrunch.com/2020/07/29/daily-crunch-antitrust-hearing/",
+                "urlToImage": "https://techcrunch.com/wp-content/uploads/2020/07/GettyImages-1227829729.jpeg?w=600",
+                "publishedAt": "2020-07-29T22:39:20Z",
+                "content": "U.S. tech giants face antitrust scrutiny, Spotify has a mixed quarter and at-home fitness startup Tempo raises funding. This is your Daily Crunch for July 29, 2020.\r\nThe big story: Tech CEOs face Con… [+3322 chars]"
+            },
+            {
+                "source": {
+                    "id": "techcrunch",
+                    "name": "TechCrunch"
+                },
+                "author": "Anthony Ha",
+                "title": "Daily Crunch: Tech CEOs face Congress",
+                "description": "U.S. tech giants face antitrust scrutiny, Spotify has a mixed quarter and at-home fitness startup Tempo raises funding. Amazon's Jeff Bezos, Apple's Tim Cook, Facebook's Mark Zuckerberg and Google's Sundar Pichai all appeared remotely this afternoon before th…",
+                "url": "https://techcrunch.com/2020/07/29/daily-crunch-antitrust-hearing/",
+                "urlToImage": "https://s.yimg.com/uu/api/res/1.2/GmhgJENxkZTb5MzKPHlAiQ--~B/aD02ODM7dz0xMDI0O3NtPTE7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/techcrunch_350/15c883e3b70d1c7755a6244d83645d3b",
+                "publishedAt": "2020-07-29T22:39:20Z",
+                "content": "U.S. tech giants face antitrust scrutiny, Spotify has a mixed quarter and at-home fitness startup Tempo raises funding. This is your Daily Crunch for July 29, 2020.\r\nThe big story: Tech CEOs face Con… [+3322 chars]"
+            },
+            {
+                "source": {
+                    "id": "techcrunch",
+                    "name": "TechCrunch"
+                },
+                "author": "Sarah Perez",
+                "title": "Apple CEO Tim Cook questioned over App Store’s removal of rival screen time apps in antitrust hearing",
+                "description": "Last year, Apple removed a number of screen time and parental control apps from its App Store, shortly after the company had released its own first-party screen time solution with the launch of iOS 12. At today’s antitrust hearing, Apple CEO Tim Cook was ques…",
+                "url": "http://techcrunch.com/2020/07/29/apple-ceo-tim-cook-questioned-over-app-stores-removal-of-rival-screen-time-apps-in-antitrust-hearing/",
+                "urlToImage": "https://techcrunch.com/wp-content/uploads/2020/07/GettyImages-1227829497.jpeg?w=600",
+                "publishedAt": "2020-07-29T22:30:10Z",
+                "content": "Last year, Apple href=\"https://techcrunch.com/2018/12/05/apple-puts-third-party-screen-time-apps-on-notice/\"\u0026gt; removed a number of screen time and parental control apps from its App Store, shortly … [+4646 chars]"
+            },
+            {
+                "source": {
+                    "id": "the-next-web",
+                    "name": "The Next Web"
+                },
+                "author": "Rachel Kaser",
+                "title": "Google Stadia’s cellular support might draw in some new blood",
+                "description": "Google this week revealed it was unbinding Stadia from WiFi, meaning you can finally play your games on mobile devices via 4G or 5G cellular networks. It’s an upgrade Stadia’s been missing for a while, and could make the service more palatable to potential us…",
+                "url": "https://thenextweb.com/?p=1308336",
+                "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw?filter_last=1\u0026fit=1280%2C640\u0026url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F03%2FStadia-Controller.jpg\u0026signature=7bf800bd8443d0e09891a5c783128e7b",
+                "publishedAt": "2020-07-29T22:15:36Z",
+                "content": "Google this week revealed it was unbinding Stadia from WiFi, meaning you can finally play your games on mobile devices via 4G or 5G cellular networks. Its an upgrade Stadias been missing for a while,… [+2400 chars]"
+            },
+            {
+                "source": {
+                    "id": "techcrunch",
+                    "name": "TechCrunch"
+                },
+                "author": "Kirsten Korosec",
+                "title": "GM starts construction on the cornerstone of its EV strategy",
+                "description": "Steel construction has begun on the nearly 3-million-square-foot factory that will mass produce Ultium battery cells and packs, the cornerstone of General Motors' strategy to bring 20 electric vehicles to market by 2023. The Ultium Cells LLC battery cell manu…",
+                "url": "https://techcrunch.com/2020/07/29/gm-starts-construction-on-the-cornerstone-of-its-ev-strategy/",
+                "urlToImage": "https://s.yimg.com/ny/api/res/1.2/MhdIpxX8a6J2AyjrKZxuLg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyODA7aD03MjA-/https://s.yimg.com/uu/api/res/1.2/egggXfy.oSSMnvg3VGITwQ--~B/aD0yNzAwO3c9NDgwMDtzbT0xO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/techcrunch_350/163bc28f2efdb4bcd54efb0949199d23",
+                "publishedAt": "2020-07-29T22:00:46Z",
+                "content": "Steel construction has begun on the nearly 3-million-square-foot factory that will mass produce Ultium battery cells and packs, the cornerstone of General Motors' strategy to bring 20 electric vehicl… [+2765 chars]"
+            },
+            {
+                "source": {
+                    "id": "techcrunch",
+                    "name": "TechCrunch"
+                },
+                "author": "Kirsten Korosec",
+                "title": "GM starts construction on the cornerstone of its EV strategy",
+                "description": "Steel construction has begun on the nearly 3-million-square-foot factory that will mass produce Ultium battery  packs, the cornerstone of General Motors’ strategy to bring 20 electric vehicles to market by 2023. The Ultium Cells LLC battery cell manufacturing…",
+                "url": "http://techcrunch.com/2020/07/29/gm-starts-construction-on-the-cornerstone-of-its-ev-strategy/",
+                "urlToImage": "https://techcrunch.com/wp-content/uploads/2020/03/GM-ElectricFuture.jpg?w=711",
+                "publishedAt": "2020-07-29T22:00:46Z",
+                "content": "Steel construction has begun on the nearly 3-million-square-foot factory that will mass produce Ultium battery cells and packs, the cornerstone of General Motors’ strategy to bring 20 electric vehicl… [+2694 chars]"
+            },
+            {
+                "source": {
+                    "id": "techcrunch",
+                    "name": "TechCrunch"
+                },
+                "author": "Lucas Matney",
+                "title": "Connected audio was a bad choice – TechCrunch",
+                "description": "The past week, I’ve spent ample time looking to revamp my home audio setup. I think my only qualification is that my next setup is as dumb as possible. In the past five years, my setup has gone from a fairly middling wired 2.1 speaker setup to a confusing men…",
+                "url": "http://techcrunch.com/2020/07/29/connected-audio-was-a-bad-choice/",
+                "urlToImage": "https://techcrunch.com/wp-content/uploads/2018/02/homepod-review.png?w=711",
+                "publishedAt": "2020-07-29T21:41:29Z",
+                "content": "The past week, Ive spent ample time looking to revamp my home audio setup. I think my only qualification is that my next setup is as dumb as possible.\r\nIn the past five years, my setup has gone from … [+2851 chars]"
+            },
+            {
+                "source": {
+                    "id": "techcrunch",
+                    "name": "TechCrunch"
+                },
+                "author": "Lucas Matney",
+                "title": "Connected audio was a bad choice",
+                "description": "In the past five years, my setup has gone from a fairly middling wired 2.1 speaker setup to a confusing menagerie of connected smart speakers. Good audio hardware should be timeless, and devices that need frequent firmware updates, have proprietary support fo…",
+                "url": "https://techcrunch.com/2020/07/29/connected-audio-was-a-bad-choice/",
+                "urlToImage": "https://s.yimg.com/ny/api/res/1.2/z_R0j9Q9_ON0FSifuUbYyg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyODA7aD03MjA-/https://s.yimg.com/uu/api/res/1.2/VsOPJVS7mPpSSg7DLEJdsA--~B/aD0xODAwO3c9MzIwMDtzbT0xO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/techcrunch_350/e36bc1ee8f57e666c21a6ef1fe267c9e",
+                "publishedAt": "2020-07-29T21:39:13Z",
+                "content": "The past week, Ive spent ample time looking to revamp my home audio setup. I think my only qualification is that my next setup is as dumb as possible.\r\nIn the past five years, my setup has gone from … [+2859 chars]"
+            },
+            {
+                "source": {
+                    "id": "techcrunch",
+                    "name": "TechCrunch"
+                },
+                "author": "Sarah Perez",
+                "title": "In antitrust hearing, Zuckerberg admits Facebook has copied its competition",
+                "description": "At the House Antitrust Subcommittee hearings this afternoon, Facebook CEO Mark Zuckerberg was directly questioned about his company’s strategy of copying competitors’ app and features, and even threatening to do so as a negotiation tactic amid M\u0026A discussions…",
+                "url": "http://techcrunch.com/2020/07/29/in-antitrust-hearing-zuckerberg-admits-facebook-has-copied-its-competition/",
+                "urlToImage": "https://techcrunch.com/wp-content/uploads/2020/07/GettyImages-1227829729.jpeg?w=600",
+                "publishedAt": "2020-07-29T21:32:05Z",
+                "content": "At the House Antitrust Subcommittee hearings this afternoon, Facebook CEO Mark Zuckerberg was directly questioned about his company’s strategy of copying competitors’ app and features, and even threa… [+4524 chars]"
+            },
+            {
+                "source": {
+                    "id": "techcrunch",
+                    "name": "TechCrunch"
+                },
+                "author": "Devin Coldewey",
+                "title": "Bezos ‘can’t guarantee’ no anti-competitive activity as Congress catches him flat-footed",
+                "description": "At today’s House Judiciary Committee hearing, Amazon CEO Jeff Bezos bungled attempts to assuage concerns that the company poaches ideas from its competitors, taking sustained fire from Rep. Pramila Jayapal (D-WA) and others. Faced with testimony from employee…",
+                "url": "http://techcrunch.com/2020/07/29/bezos-cant-guarantee-no-anti-competitive-activity-as-congress-catches-him-flat-footed/",
+                "urlToImage": "https://techcrunch.com/wp-content/uploads/2020/07/GettyImages-1227829502.jpeg?w=639",
+                "publishedAt": "2020-07-29T20:52:50Z",
+                "content": "At today’s House Judiciary Committee hearing, Amazon CEO Jeff Bezos bungled attempts to assuage concerns that the company poaches ideas from its competitors, taking sustained fire from Rep. Pramila J… [+8686 chars]"
+            },
+            {
+                "source": {
+                    "id": "techcrunch",
+                    "name": "TechCrunch"
+                },
+                "author": "Devin Coldewey",
+                "title": "Bezos 'can't guarantee' no anti-competitive activity as Congress catches him flat-footed",
+                "description": "At today's House Judiciary Committee hearing, Amazon CEO Jeff Bezos bungled attempts to assuage concerns that the company poaches ideas from its competitors, taking sustained fire from Rep. Pramila Jayapal (D-WA) and others. Faced with testimony from employee…",
+                "url": "https://techcrunch.com/2020/07/29/bezos-cant-guarantee-no-anti-competitive-activity-as-congress-catches-him-flat-footed/",
+                "urlToImage": "https://s.yimg.com/uu/api/res/1.2/RqimJQ5R7MAg.QkF3dSR9w--~B/aD02NDE7dz0xMDI0O3NtPTE7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/techcrunch_350/7c4756ec9b11ced388dfb3fbb76053d5",
+                "publishedAt": "2020-07-29T20:52:50Z",
+                "content": "At today's House Judiciary Committee hearing, Amazon CEO Jeff Bezos bungled attempts to assuage concerns that the company poaches ideas from its competitors, taking sustained fire from Rep. Pramila J… [+9290 chars]"
+            },
+            {
+                "source": {
+                    "id": "techcrunch",
+                    "name": "TechCrunch"
+                },
+                "author": "Jonathan Shieber",
+                "title": "LA's consumer goods rental service, Joymode, sells to the NYC retail investment firm, XRC Labs",
+                "description": "After raising $15 million in financing from one of technology's most successful global investment firms, the Los Angeles-based consumer goods rental company Joymode is selling itself to an early-stage retail investment firm out of New York, XRC Labs. Joymode'…",
+                "url": "http://techcrunch.com/2020/07/29/las-consumer-goods-rental-service-joymode-sells-to-the-nyc-retail-investment-firm-xrc-labs/",
+                "urlToImage": "https://techcrunch.com/wp-content/uploads/2016/10/joymode-outdoormovie.jpg?w=600",
+                "publishedAt": "2020-07-29T20:41:47Z",
+                "content": "After raising $15 million in financing from one of technology’s most successful global investment firms, the Los Angeles-based consumer goods rental company Joymode is selling itself to an early-stag… [+3751 chars]"
+            },
+            {
+                "source": {
+                    "id": "techcrunch",
+                    "name": "TechCrunch"
+                },
+                "author": "Jonathan Shieber",
+                "title": "LA's consumer goods rental service, Joymode, sells to the NYC retail investment firm, XRC Labs",
+                "description": "After raising $15 million in financing from one of technology's most successful global investment firms, the Los Angeles-based consumer goods rental company Joymode is selling itself to an early-stage retail investment firm out of New York, XRC Labs. Joymode'…",
+                "url": "https://techcrunch.com/2020/07/29/las-consumer-goods-rental-service-joymode-sells-to-the-nyc-retail-investment-firm-xrc-labs/",
+                "urlToImage": "https://s.yimg.com/ny/api/res/1.2/LrDjHewzw_ee1.vLJVZr5w--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyODA7aD04NTMuMzMzMzMzMzMzMzMzNA--/https://s.yimg.com/uu/api/res/1.2/8drBAdgG0j_WtjgLKsdweQ--~B/aD01MjQ5O3c9Nzg2OTtzbT0xO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/techcrunch_350/c51f1a3a7538fbfaee072b8472e35d16",
+                "publishedAt": "2020-07-29T20:41:47Z",
+                "content": "After raising $15 million in financing from one of technology's most successful global investment firms, the Los Angeles-based consumer goods rental company Joymode is selling itself to an early-stag… [+3754 chars]"
+            },
+            {
+                "source": {
+                    "id": "techcrunch",
+                    "name": "TechCrunch"
+                },
+                "author": "Natasha Lomas",
+                "title": "Google's Sundar Pichai grilled over \"destroying anonymity on the Internet\"",
+                "description": "Google's Sundar Pichai faced an awkward line of enquiry during today's House Antitrust Subcommittee hearing related to its 2007 acquisition of adtech platform DoubleClick, and how it went on to renege on an original promise to lawmakers and regulators that it…",
+                "url": "https://techcrunch.com/2020/07/29/googles-sundar-pichai-grilled-over-destroying-anonymity-on-the-internet/",
+                "urlToImage": "https://s.yimg.com/uu/api/res/1.2/vTitUu_jW.63zZPW0Mfskg--~B/aD0xMDgwO3c9MTkyMDtzbT0xO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/techcrunch_350/755ce51e25a458e5a0f81711ee007a18",
+                "publishedAt": "2020-07-29T20:33:49Z",
+                "content": "Google's Sundar Pichai faced an awkward line of enquiry during today's House Antitrust Subcommittee hearing related to its 2007 acquisition of adtech platform DoubleClick, and how it went on to reneg… [+5462 chars]"
+            },
+            {
+                "source": {
+                    "id": "techcrunch",
+                    "name": "TechCrunch"
+                },
+                "author": "Natasha Lomas",
+                "title": "Google’s Sundar Pichai grilled over “destroying anonymity on the Internet”",
+                "description": "Google’s Sundar Pichai faced an awkward line of enquiry during today’s House Antitrust Subcommittee hearing related to its 2007 acquisition of adtech platform DoubleClick, and how it went on to renege on an original promise to lawmakers and regulators that it…",
+                "url": "http://techcrunch.com/2020/07/29/googles-sundar-pichai-grilled-over-destroying-anonymity-on-the-internet/",
+                "urlToImage": "https://techcrunch.com/wp-content/uploads/2020/07/pichai-testimony.jpg?w=711",
+                "publishedAt": "2020-07-29T20:33:49Z",
+                "content": "Google’s Sundar Pichai faced an awkward line of enquiry during today’s House Antitrust Subcommittee hearing related to its 2007 acquisition of adtech platform DoubleClick, and how it went on to reneg… [+5403 chars]"
+            },
+            {
+                "source": {
+                    "id": "techcrunch",
+                    "name": "TechCrunch"
+                },
+                "author": "Taylor Hatmaker",
+                "title": "Before buying Instagram, Zuckerberg warned employees of ‘battle’ to ‘dislodge’ competitor",
+                "description": "In one of the first substantive moments at Wednesday’s major tech hearing, Facebook’s 2012 acquisition of Instagram came under fire, unearthing a few new revelations about the company’s internal thinking at the time. Alluding to new documents provided to the …",
+                "url": "http://techcrunch.com/2020/07/29/facebook-instagram-deal-illegal-nadler/",
+                "urlToImage": "https://techcrunch.com/wp-content/uploads/2019/10/GettyImages-1177742587.jpg?w=600",
+                "publishedAt": "2020-07-29T19:29:55Z",
+                "content": "In one of the first substantive moments at Wednesday’s major tech hearing, Facebook’s 2012 acquisition of Instagram came under fire, unearthing a few new revelations about the company’s internal thin… [+2291 chars]"
+            },
+            {
+                "source": {
+                    "id": "techcrunch",
+                    "name": "TechCrunch"
+                },
+                "author": "Greg Kumparak",
+                "title": "Extra Crunch Live: Join our Q\u0026A tomorrow at noon PDT with Y Combinator’s Geoff Ralston",
+                "description": "From Airbnb to Zapier, and Coinbase to Instacart, many of the tech world’s most valuable companies spent their earliest days in Y Combinator’s accelerator program. Steering the ship at Y Combinator today is its president, Geoff Ralston . We’re excited to shar…",
+                "url": "http://techcrunch.com/2020/07/29/extra-crunch-live-join-our-qa-tomorrow-at-noon-pdt-with-y-combinators-geoff-ralston/",
+                "urlToImage": "https://techcrunch.com/wp-content/uploads/2020/07/Geoff-Ralston.jpg?w=710",
+                "publishedAt": "2020-07-29T18:58:04Z",
+                "content": "From Airbnb to Zapier, and Coinbase to Instacart, many of the tech world’s most valuable companies spent their earliest days in Y Combinator’s accelerator program.\r\nSteering the ship at Y Combinator … [+1146 chars]"
+            },
+            {
+                "source": {
+                    "id": "the-next-web",
+                    "name": "The Next Web"
+                },
+                "author": "Thomas Macaulay",
+                "title": "Scientists use AI to predict what makes a successful relationship",
+                "description": "Couples counselors have been around for decades. But with around 40% of US marriages now ending in divorce, they could probably do with some more modern techniques. A new AI study led by Western University could provide them with some pointers. The researcher…",
+                "url": "https://thenextweb.com/neural/2020/07/29/scientists-use-ai-to-predict-what-makes-a-successful-relationship/",
+                "urlToImage": "https://img-cdn.tnwcdn.com/image/neural?filter_last=1\u0026fit=1280%2C640\u0026url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F07%2FUntitled-design-2020-07-29T185605.585.png\u0026signature=c189bdfdb5e0647e3839962ec53380be",
+                "publishedAt": "2020-07-29T18:26:03Z",
+                "content": "Couples counselors have been around for decades. But with around 40% of US marriages now ending in divorce, they could probably do with some more modern techniques.\r\nA new AI study led by Western Uni… [+1661 chars]"
+            }
+        ]
+    }
+]

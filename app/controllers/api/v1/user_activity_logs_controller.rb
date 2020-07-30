@@ -2,7 +2,7 @@ class Api::V1::UserActivityLogsController < ApplicationController
     before_action :find_user_activity_log, only: [:show, :update, :destroy]
 
     def index
-        user_activity_logs = UserActivity.all
+        user_activity_logs = UserActivityLog.all
         render json: user_activity_logs
     end
 
@@ -13,19 +13,13 @@ class Api::V1::UserActivityLogsController < ApplicationController
         render json: user_logs
     end
 
-    def show
-        render json: @user_activity_log
-    end
+
 
     def create
-        user_activity_log = UserActivity.create!(user_activity_log_params)
+        user_activity_log = UserActivityLog.create!(user_activity_log_params)
         render json: user_activity_log 
     end
 
-    def update
-        @user_activity_log.update!(user_activity_log_params)
-        render json: @user_activity_log 
-    end
 
     def destroy
         @user_activity_log.destroy!
@@ -35,11 +29,11 @@ class Api::V1::UserActivityLogsController < ApplicationController
     private
     
     def find_user_activity_log
-        @user_activity_log = UserActivity.find(params[:id])
+        @user_activity_log = UserActivityLog.find(params[:id])
     end
 
     def user_activity_log_params
-        params.permit(:position, :user_id, :activity_id, :completed)
+        params.require(:user_activity_log).permit!
     end
     
 end

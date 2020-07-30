@@ -3,6 +3,7 @@ require "open-uri"
 require "json"
 require 'openssl'
 
+
 WEATHER_API_KEY = ENV['weather_api_key']
 
 class Api::V1::UserActivitiesController < ApplicationController
@@ -47,14 +48,19 @@ class Api::V1::UserActivitiesController < ApplicationController
         http.verify_mode = OpenSSL::SSL::VERIFY_NONE
         request = Net::HTTP::Get.new(url)
         request["x-rapidapi-host"] = 'community-open-weather-map.p.rapidapi.com'
-        request["x-rapidapi-key"] = 'ea4deba157msh20974ba3dd19506p11f45djsna288c2eedde7'
+        request["x-rapidapi-key"] = ''
         response = http.request(request)
         data = response.read_body
         render json: data
     end
 
-    def fetch_news
+    def fetch_news             
+        @url = 'https://newsapi.org/v2/top-headlines?sources=recode,techcrunch&apiKey='
+        uri = URI.parse(@url)
+        response = Net::HTTP.get_response(uri)
+        news = JSON.parse(response.body)
 
+        render json: news
     end
     
 
