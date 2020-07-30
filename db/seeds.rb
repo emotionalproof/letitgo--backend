@@ -20,7 +20,7 @@ require 'faker'
 # Activity.create(name: "Remember")
 # Activity.create(name: "Move")
 # Activity.create(name: "Play")
-# Activity.create(name: "Smile")
+Activity.create(name: "Smile")
 # Activity.create(name: "Walk")
 # Activity.create(name: "Select")
 
