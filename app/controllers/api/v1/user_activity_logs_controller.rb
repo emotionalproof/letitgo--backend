@@ -3,7 +3,9 @@ class Api::V1::UserActivityLogsController < ApplicationController
 
     def index
         user_activity_logs = UserActivityLog.all
-        render json: user_activity_logs
+        render json: user_activity_logs, :include => {
+            :user_activity => {:include => :user}
+        }
     end
 
     def by_user

@@ -29,6 +29,8 @@ class Api::V1::UserActivitiesController < ApplicationController
         render json: user_activity 
     end
 
+  
+
     def update
         @user_activity.update!(user_activity_params)
         render json: @user_activity 
